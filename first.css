@@ -1,0 +1,20 @@
+.external-link {
+    color: SeaGreen;
+}
+
+body {
+    background-color: paleturquoise;
+}
+
+.first-header {
+    text-align: center; color: seagreen;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+
+
+
