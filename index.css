@@ -10,7 +10,7 @@ body {
       background: rgb(248, 0, 248);
       color: #FFF;
       position: relative;
-      min-height:300px;
+      min-height:110px;
       overflow:hidden;
   }
   .skewed-bg::after {
