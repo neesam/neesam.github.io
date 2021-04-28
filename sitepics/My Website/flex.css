@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DotGothic16';
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0;
+}
+
+header {
+    background-image: url(https://f4.bcbits.com/img/0023773461_100.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    width: 30%;
+    margin: 0px 20px;
+    padding: 0;
+    font-size: 40px;
+    line-height: 70px;
+    position: relative;
+    top: 20px;
+    color: bisque;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: bisque;
+    text-decoration: none;
+    margin: 0px 10px;
+    width: 30%;
+    font-size: 30px;
+    position: relative;
+    left: 300px;
+}
+
+/* Banner */
+
+.banner-image {
+    height: 700px;
+    position: relative;
+    top: 100px;
+    background-image: url(world.png);
+    font-size: 100px;
+    text-align: center;
+}
+
+.banner-title {
+    position: relative;
+    top: 200px;
+    color: white;
+    float: left;
+    padding-left: 100px;
+}
+
+.banner-box {
+    background-image: url(moon.png);
+    position: relative;
+    top: 180px;
+    height: 250px;
+    width: 36%;
+    float: left;
+    left: 400px;
+    font-size: 24px;
+    border-radius: 60%;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 20px 15px rgba(75, 77, 82, .2);
+}
+
+.banner-image2 {
+    height: 1400px;
+    position: relative;
+    top: 100px;
+    background-image: url(falling.jpg);
+    font-size: 100px;
+    text-align: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* Main */
+
+.recents-header {
+    background-image: url(7c409c2d8f232826852a.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    bottom: 1300px;
+    right: 0px;
+    z-index: 2;
+    box-shadow: pink;
+}
+
+.recent-image {
+    width: 10%;
+}
+
+.recent-image h3 {
+    color: white;
+}
+
+.container {
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 1100px;
+    left: 80px;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    width: 67%;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+
+.container h3 {
+    background-color: white;
+    color: black;
+    width: 200px;
+    position: relative;
+    text-decoration: none;
+}
+
+.container2 {
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 1000px;
+    left: 80px;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    width: 67%;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.container2 img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+
+.container2 h3 {
+    background-color: white;
+    color: black;
+    width: 200px;
+    position: relative;
+}
+
+.rose {
+    position: relative;
+    top: 14px;
+}
+
+.container3 {
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 1000px;
+    left: 80px;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    width: 67%;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+
+.container3 h5 {
+    background-color: white;
+    color: black;
+    width: 210px;
+    position: relative;
+    font-size: 2em;
+}
+
+.container4 {
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 900px;
+    left: 80px;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    width: 67%;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.container4 img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+
+.container4 h3 {
+    background-color: white;
+    color: black;
+    width: 200px;
+    position: relative;
+}
+
+.second-wrap {
+    position: relative;
+    top: 120px;
+}
+
+.container-og {
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 1200px;
+    left: 80px;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    width: 67%;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.container-og h3 {
+    background-color: white;
+    color: black;
+    width: 200px;
+    position: relative;
+    font-size: 2em;
+}
