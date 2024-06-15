@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lightgray;
+  border: 1px solid black;
+  margin: 10px;
+  height: 100vh
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.light h1 {
+  color: #61dafb;
+}
+
+.dark h1 {
+  color: black
+}
+
+.about {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.about:hover {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  margin-top: 0;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  cursor: pointer
 }
